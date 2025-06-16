@@ -6,16 +6,13 @@ body ul {
     width: 300px;
     height: 150px;
     background-color: rgb(112, 112, 255);
+    animation-name: fade;
+    animation-duration: 1s;
 
     &:nth-child(even) {
       background-color: rgb(255, 74, 74);
     }
   }
-}
-
-.fade {
-  animation-name: fade;
-  animation-duration: 1s;
 }
 
 @keyframes fade {
